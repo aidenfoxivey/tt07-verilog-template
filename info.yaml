@@ -20,24 +20,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "CRC input."
+  ui[1]: "CRC input."
+  ui[2]: "CRC input."
+  ui[3]: "CRC input."
+  ui[4]: "CRC input."
+  ui[5]: "CRC input."
+  ui[6]: "CRC input."
+  ui[7]: "CRC input."
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "CRC output."
+  uo[1]: "CRC output."
+  uo[2]: "CRC output."
+  uo[3]: "CRC output."
+  uo[4]: "CRC output."
+  uo[5]: "CRC output."
+  uo[6]: "CRC output."
+  uo[7]: "CRC output."
 
   # Bidirectional pins
   uio[0]: ""
