@@ -3,7 +3,7 @@ project:
   title: "CRC-8 CCITT" # Project title
   author: "Aiden Fox Ivey" # Your name
   discord: "aidenfoxivey" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "" # One line description of what your project does
+  description: "A simple implementation of CRC-8 following CCITT specs." # One line description of what your project does
   language: "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
