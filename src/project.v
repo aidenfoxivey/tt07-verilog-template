@@ -43,7 +43,7 @@ assign data_out = curr_crc;
 
 always @(posedge clk or posedge rst) begin
   if (rst) begin
-    curr_crc <= {8{1'b0}};
+    curr_crc <= {8{1'b0}}; // CCITT initial value is defined as 0
   end
   else begin
     curr_crc <= enable ? next_crc : curr_crc;
